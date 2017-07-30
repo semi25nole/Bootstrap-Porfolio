@@ -1,9 +1,23 @@
-header {
-	background-color: white;
-	width: 100%;
-	height: 80px;
-	margin: 0px;
-	border-bottom: solid 2px lightgrey;
+#nav {
+	background-image: url("../images/laminate.jpg");
+}
+
+#myname {
+	font-family:'Cinzel', serif;
+	font-size: 34px;
+	color: white;
+	position: relative;
+	left: 80px;
+	top: 15px;
+}
+
+#myname1 {
+	font-family:'Cinzel', serif;
+	font-size: 34px;
+	color: white;
+	position: relative;
+	left: 90px;
+	top: 15px;
 
 }
 
@@ -20,7 +34,25 @@ footer {
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	clear: both;
 	position: relative;
-	top: 10px;
+	top: 36px;
+	background-image: url("../images/laminate.jpg");
+}
+
+.footer1 {
+	background-color: #666666;
+	width: 100%;
+	height: 80px;
+	border-top: 6px solid #4aaaa5;
+	color: #bbbbbb;
+	font-size: 11px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px; 
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	clear: both;
+	position: relative;
+	top: 54px;
+	background-image: url("../images/laminate.jpg");
 
 }
 
@@ -30,13 +62,14 @@ footer {
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	color: #777777;
 	width: 650px;
-	height: 450px;
+	height: 500px;
 	border: 1.5px solid #dddddd;
-	margin-top: 3%;
+	margin-top: 5px;
 	margin-left: 8%;
-	margin-bottom: 3.49%;
+	margin-bottom: 20px;
 	position: relative;
 	float: left;
+	background-image: url("../images/laminate.jpg");
 
 }
 
@@ -47,14 +80,15 @@ footer {
 	padding: 20px;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	color: #777777;
-	width: 650px;
-	height: 600px;
+	width: 680px;
+	height: 653px;
 	border: 1.5px solid #dddddd;
-	margin-top: 2%;
+	margin-top: 0px;
 	margin-left: 8%;
 	position: relative;
 	float: left;
-	top: 15px;
+	top: 5px;
+	background-image: url("../images/laminate.jpg");
 
 }
 
@@ -68,6 +102,7 @@ footer {
 	margin: 3.0%;
 	margin-right: 23%;
 	position: relative;
+	background-image: url("../images/laminate.jpg");
 }
 
 aside {
@@ -77,26 +112,46 @@ aside {
 	height: 200px;
 	background-color: white;
 	border: 1.5px solid lightgrey;
-	margin: 2.0%;
-	margin-right: 23%;
+	margin-top: 0px;
+	margin-right: 0px;
 	position: relative;
-	top: 15px;
+	top: 5px;
+	background-image: url("../images/laminate.jpg");
+	right: 360px;
 }
+
+#aside1 {
+	float: right;
+	clear: both;
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	border: 1.5px solid lightgrey;
+	margin-top: 0px;
+	margin-right: 0px;
+	position: relative;
+	top: 5px;
+	background-image: url("../images/laminate.jpg");
+	right: 360px;
+}
+
 
 .toprow {
 	position: absolute;
 	float: left;
 	clear: both;
 	background-color: white;
-	color: #4aaaa5;
+	color: white;
 	border-bottom: 4px solid lightgrey;
-	width: 620px;
+	width: 600px;
 	height: 90px;
 	font-size: 30px;
 	font-weight: bold;
 	vertical-align: middle;
 	line-height: 80px; 
-	font-family: Georgia, Times, Times New Roman, serif;
+	font-family: 'Cinzel', serif;
+	background-image: url("../images/laminate.jpg");
+
 }
 
 /*Portfolio Page Only*/
@@ -106,7 +161,7 @@ aside {
 	float: left;
 	clear: both;
 	background-color: white;
-	color: #4aaaa5;
+	color: white;
 	border-bottom: 4px solid lightgrey;
 	width: 620px;
 	height: 90px;
@@ -114,7 +169,8 @@ aside {
 	font-weight: bold;
 	vertical-align: middle;
 	line-height: 80px; 
-	font-family: Georgia, Times, Times New Roman, serif;
+	font-family: 'Cinzel', serif;
+	background-image: url("../images/laminate.jpg");
 }
 
 .toprow2 {
@@ -132,8 +188,9 @@ aside {
 	line-height: 20px; 
 	font-weight: bold;
 	font-size: 23px;
-	color: #4aaaa5;
-	font-family: Georgia, Times, Times New Roman, serif;
+	color: white;
+	font-family: 'Cinzel', serif;
+	background-image: url("../images/laminate.jpg");
 }
 
 .name {
@@ -150,9 +207,11 @@ aside {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 70px; 
+	background-image: url("../images/laminate.jpg");
 
 }
 /*Portfolio Page Only */
+
 .name2 {
 	float: left;
 	position: absolute;
@@ -167,30 +226,37 @@ aside {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 70px; 
+	background-image: url("../images/laminate.jpg");
 
 }
 
 
 #myphoto{
-	margin-top: 18%;
+	margin-top: 125px;
 
 }
 
 body {
-	background-image: url("../images/background.png");
+	background-image: url("../images/laminate.jpg");
 	max-height: 100%;
 
 }
 
 /*About Section Only*/
 p {
-	font-size: 13px;
+	font-size: 14px;
 	margin-top: 120px;
 	line-height: 1.5;
+	font-family: 'Scope One', serif;
+	color: white;
+
 }
 
 .p2 {
 	margin-top: 20px;
+	font-family: 'Scope One', serif;
+	color: white;
+	font-size: 14px;
 }
 
 /*Profile Links*/
@@ -202,6 +268,7 @@ p {
 	clear: both;
 	height: 50px;
 	width: 50px;
+	background-image: url("../images/laminate.jpg");
 }
 
 .icon2 {
@@ -211,6 +278,7 @@ p {
 	clear: both;
 	height: 50px;
 	width: 50px;
+	background-image: url("../images/laminate.jpg");
 }
 
 .icon3 {
@@ -220,14 +288,9 @@ p {
 	clear: both;
 	height: 50px;
 	width: 50px;
+	background-image: url("../images/laminate.jpg");
 }
 
-/*buttons*/
-
-ul li {
-	float: right;
-	display: inline-block;
-}
 
 ul {
 	margin-right: 25.5%;
@@ -236,48 +299,55 @@ ul {
 	line-height: 70px;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	color: grey;
+	background-image: url("../images/laminate.jpg");
 
 }
 
 /*Header Bar Links*/
-.Line1 a {
+
+#Line1 a {
 	padding-right: 12px;
 	padding-left: 12px;
 	text-decoration: none;
+	color: white;
 
 }
 
-.Line2 a {
+#Line2 a {
 	padding-right: 12px;
 	padding-left: 12px;
 	text-decoration: none;
+	color: white;
 }
 
-.Line3 a {
+#Line3 a {
 	padding-right: 12px;
 	padding-left: 12px;
 	text-decoration: none;
+	color: white;
 }
 
-.Line1 a:hover {
-	background-color: grey;
+#Line1 a:hover {
+	background-color: #36648b;
 }
 
-.Line2 a:hover {
-	background-color: grey;
-}
-.Line3 a:hover {
-	background-color: grey;
+#Line2 a:hover {
+	background-color: #36648b;
 }
 
-.Line1 a:active {
+#Line3 a:hover {
+	background-color: #36648b;
+}
+
+#Line1 a:active {
 	color: red;
 }
 
-.Line2 a:active {
+#Line2 a:active {
 	color: red;
 }
-.Line3 a:active {
+
+#Line3 a:active {
 	color: red;
 }
 
@@ -365,6 +435,7 @@ ul {
 	right: 225px;
 	bottom: 380px;
 	top: 285px;
+	left: 260px;
 }
 
 .trivia {
@@ -442,6 +513,7 @@ ul {
 	font-weight: bold;
 	margin-top: 0px;
 	top: 120px;
+	color: white;
 }
 
 .input2 {
@@ -453,6 +525,7 @@ ul {
 	font-weight: bold;
 	margin-top: 0px;
 	top: 120px;
+	color: white;
 }
 
 .input3 {
@@ -464,6 +537,7 @@ ul {
 	font-size: 15px;
 	font-weight: bold;
 	top: 130px;
+	color: white;
 
 }
 
@@ -491,6 +565,10 @@ ul {
 
 .btn:focus {
 	outline: 0;
+}
+
+.btn {
+	color: white;
 }
 
 #index {

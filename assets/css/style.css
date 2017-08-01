@@ -6,18 +6,24 @@
 	font-family:'Cinzel', serif;
 	font-size: 34px;
 	color: white;
-	position: relative;
-	left: 80px;
+	left: 90px;
 	top: 15px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px; 
+	margin-left: 87px;
 }
 
 #myname1 {
 	font-family:'Cinzel', serif;
 	font-size: 34px;
 	color: white;
-	position: relative;
 	left: 90px;
 	top: 15px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px; 
+	margin-left: 87px;
 
 }
 
@@ -34,7 +40,7 @@ footer {
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	clear: both;
 	position: relative;
-	top: 36px;
+	top: 60px;
 	background-image: url("../images/laminate.jpg");
 }
 
@@ -51,7 +57,7 @@ footer {
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	clear: both;
 	position: relative;
-	top: 54px;
+	top: 60px;
 	background-image: url("../images/laminate.jpg");
 
 }
@@ -64,11 +70,12 @@ footer {
 	width: 650px;
 	height: 500px;
 	border: 1.5px solid #dddddd;
-	margin-top: 5px;
+	margin-top: 0px;
 	margin-left: 8%;
 	margin-bottom: 20px;
 	position: relative;
 	float: left;
+	top: 15px;
 	background-image: url("../images/laminate.jpg");
 
 }
@@ -84,17 +91,16 @@ footer {
 	height: 653px;
 	border: 1.5px solid #dddddd;
 	margin-top: 0px;
-	margin-left: 8%;
+	margin-left: 100px;
 	position: relative;
 	float: left;
-	top: 5px;
+	top: 15px;
 	background-image: url("../images/laminate.jpg");
-
+	margin-bottom: 5px;
 }
 
 .aside {
 	float: right;
-	clear: both;
 	width: 300px;
 	height: 200px;
 	background-color: white;
@@ -107,22 +113,20 @@ footer {
 
 aside {
 	float: right;
-	clear: both;
 	width: 300px;
 	height: 200px;
 	background-color: white;
 	border: 1.5px solid lightgrey;
-	margin-top: 0px;
-	margin-right: 0px;
-	position: relative;
-	top: 5px;
+	top: 15px;
 	background-image: url("../images/laminate.jpg");
 	right: 360px;
+	margin-right: 365px;
+	margin-top: 15px;
+
 }
 
 #aside1 {
 	float: right;
-	clear: both;
 	width: 300px;
 	height: 200px;
 	background-color: white;
@@ -130,7 +134,7 @@ aside {
 	margin-top: 0px;
 	margin-right: 0px;
 	position: relative;
-	top: 5px;
+	top: 15px;
 	background-image: url("../images/laminate.jpg");
 	right: 360px;
 }
@@ -299,13 +303,28 @@ ul {
 	line-height: 70px;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	color: grey;
+	float: right;
+	display: inline-block;
 	background-image: url("../images/laminate.jpg");
 
 }
 
+ul li {
+	float: right;
+	display: inline-block;
+	
+}
+
+
+ul li a {
+	padding-right: 6px;
+	padding-left: 6px;
+	text-decoration: none;
+}
+
 /*Header Bar Links*/
 
-#Line1 a {
+ul li a {
 	padding-right: 12px;
 	padding-left: 12px;
 	text-decoration: none;
@@ -313,41 +332,41 @@ ul {
 
 }
 
-#Line2 a {
+ul li a {
 	padding-right: 12px;
 	padding-left: 12px;
 	text-decoration: none;
 	color: white;
 }
 
-#Line3 a {
+ul li a {
 	padding-right: 12px;
 	padding-left: 12px;
 	text-decoration: none;
 	color: white;
 }
 
-#Line1 a:hover {
-	background-color: #36648b;
+ul li a:hover {
+	background-color: #BFF3FC;
 }
 
-#Line2 a:hover {
-	background-color: #36648b;
+ul li a:hover {
+	background-color: #BFF3FC;
 }
 
-#Line3 a:hover {
-	background-color: #36648b;
+ul li a:hover {
+	background-color: #BFF3FC;
 }
 
-#Line1 a:active {
+ul li a:active {
 	color: red;
 }
 
-#Line2 a:active {
+ul li a:active {
 	color: red;
 }
 
-#Line3 a:active {
+ul li a:active {
 	color: red;
 }
 
